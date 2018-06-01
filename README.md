@@ -1,4 +1,7 @@
 # podcast-categories [![stability][0]][1]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bcomnes/podcast-categories.svg)](https://greenkeeper.io/)
+
 [![npm version][2]][3] [![build status][4]][5]
 [![downloads][8]][9] [![js-standard-style][10]][11]
 
