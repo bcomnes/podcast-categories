@@ -29,84 +29,138 @@ Literally exports an object of all valid Apple podcast categories.
 // https://help.apple.com/itc/podcasts_connect/?lang=en#/itc9267a2f12
 
 module.exports = {
-  'Arts': {
-    'Design': true,
+  Arts: {
+    Books: true,
+    Design: true,
     'Fashion & Beauty': true,
-    'Food': true,
-    'Literature': true,
+    Food: true,
     'Performing Arts': true,
     'Visual Arts': true
   },
-  'Business': {
-    'Business News': true,
-    'Careers': true,
-    'Investing': true,
-    'Management & Marketing': true,
-    'Shopping': true
+  Business: {
+    Careers: true,
+    Entrepreneurship: true,
+    Investing: true,
+    Management: true,
+    Marketing: true,
+    'Non-Profit': true
   },
-  'Comedy': {},
-  'Education': {
-    'Educational Technology': true,
-    'Higher Education': true,
-    'K-12': true,
-    'Language Courses': true,
-    'Training': true
+  Comedy: {
+    'Comedy Interviews': true,
+    Improv: true,
+    'Stand-Up': true
+  },
+  Education: {
+    Courses: true,
+    'How To': true,
+    'Language Learning': true,
+    'Self-Improvement': true
   },
   'Games & Hobbies': {
-    'Automotive': true,
-    'Aviation': true,
-    'Hobbies': true,
+    Automotive: true,
+    Aviation: true,
+    Hobbies: true,
     'Other Games': true,
     'Video Games': true
   },
-  'Government & Organizations': {
-    'Local': true,
-    'National': true,
-    'Non-Profit': true,
-    'Regional': true
+  Fiction: {
+    'Comedy Fiction': true,
+    Drama: true,
+    'Science Fiction': true
   },
-  'Health': {
+  Government: {},
+  History: {},
+  'Health & Fitness': {
     'Alternative Health': true,
-    'Fitness & Nutrition': true,
-    'Self-Help': true,
-    'Sexuality': true
+    Fitness: true,
+    Medicine: true,
+    'Mental Health': true,
+    Nutrition: true,
+    Sexuality: true
   },
-  'Kids & Family': {},
-  'Music': {},
-  'News & Politics': {},
+  'Kids & Family': {
+    'Education for Kids': true,
+    Parenting: true,
+    'Pets & Animals': true,
+    'Stories for Kids': true
+  },
+  Leisure: {
+    'Animation & Manga': true,
+    Automotive: true,
+    Aviation: true,
+    Crafts: true,
+    Games: true,
+    Hobbies: true,
+    'Home & Garden': true,
+    'Video Games': true
+  },
+  Music: {
+    'Music Commentary': true,
+    'Music History': true,
+    'Music Interviews': true
+  },
+  News: {
+    'Business News': true,
+    'Daily News': true,
+    'Entertainment News': true,
+    'News Commentary': true,
+    Politics: true,
+    'Sports News': true,
+    'Tech News': true
+  },
   'Religion & Spirituality': {
-    'Buddhism': true,
-    'Christianity': true,
-    'Hinduism': true,
-    'Islam': true,
-    'Judaism': true,
-    'Other': true,
-    'Spirituality': true
+    Buddhism: true,
+    Christianity: true,
+    Hinduism: true,
+    Islam: true,
+    Judaism: true,
+    Religion: true,
+    Spirituality: true
   },
-  'Science & Medicine': {
-    'Medicine': true,
+  Science: {
+    Astronomy: true,
+    Chemistry: true,
+    'Earth Sciences': true,
+    'Life Sciences': true,
+    Mathematics: true,
     'Natural Sciences': true,
+    Nature: true,
+    Physics: true,
     'Social Sciences': true
   },
   'Society & Culture': {
-    'History': true,
+    Documentary: true,
     'Personal Journals': true,
-    'Philosophy': true,
-    'Places & Travel': true
+    Philosophy: true,
+    'Places & Travel': true,
+    Relationships: true
   },
-  'Sports & Recreation': {
-    'Amateur': true,
-    'College & High School': true,
-    'Outdoor': true,
-    'Professional': true
+  Sports: {
+    Baseball: true,
+    Basketball: true,
+    Cricket: true,
+    'Fantasy Sports': true,
+    Football: true,
+    Golf: true,
+    Hockey: true,
+    Rugby: true,
+    Running: true,
+    Soccer: true,
+    Swimming: true,
+    Tennis: true,
+    Volleyball: true,
+    Wilderness: true,
+    Wrestling: true
   },
-  'Technology': {
-    'Gadgets': true,
-    'Tech News': true,
-    'Podcasting': true,
-    'Software How-To': true
-  },
-  'TV & Film': {}
+  Technology: {},
+  'True Crime': {},
+  'TV & Film': {
+    'After Shows': true,
+    'Film History': true,
+    'Film Interviews': true,
+    'Film Reviews': true,
+    'TV Reviews': true
+  }
 }
 ```
 
