@@ -7,6 +7,8 @@
     "url": "https://github.com/bcomnes/podcast-categories/issues"
   },
   "devDependencies": {
+    "auto-changelog": "^1.16.2",
+    "gh-release": "^3.5.0",
     "@tap-format/spec": "^0.2.0",
     "dependency-check": "^4.1.0",
     "npm-run-all": "^4.0.2",
@@ -29,10 +31,12 @@
     "url": "git+https://github.com/bcomnes/podcast-categories.git"
   },
   "scripts": {
+    "prepublishOnly": "git push --follow-tags && gh-release",
     "debug": "node --nolazy --inspect-brk=9229 node_modules/.bin/tape 'test.js'",
     "test": "run-s test:*",
     "test:deps": "dependency-check package.json --missing --unused --no-dev",
     "test:lint": "standard --verbose | snazzy",
-    "test:tape": "tape 'test.js' | tap-format-spec"
+    "test:tape": "tape 'test.js' | tap-format-spec",
+    "version": "auto-changelog -p --template keepachangelog auto-changelog --breaking-pattern 'BREAKING CHANGE:' && git add CHANGELOG.md"
   }
 }
