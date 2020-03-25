@@ -7,7 +7,7 @@
     "url": "https://github.com/bcomnes/podcast-categories/issues"
   },
   "devDependencies": {
-    "auto-changelog": "^1.16.2",
+    "auto-changelog": "^1.16.3",
     "gh-release": "^3.5.0",
     "@tap-format/spec": "^0.2.0",
     "dependency-check": "^4.1.0",
